@@ -7,6 +7,68 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+# 🌾 AgroSmart - ERP de Gestão Agrícola com Inteligência Artificial
+
+O **AgroSmart** é uma plataforma completa de gestão de precisão para produtores agrícolas, que combina a robustez do ecossistema **Laravel** com o poder da **IA em Python**. O sistema permite controlar desde o financeiro e maquinário até diagnósticos avançados de pragas em tempo real.
+
+---
+
+## 🚀 Funcionalidades Principais
+
+### 🤖 AgroBot Especialista (Consultoria 360º)
+Um assistente técnico integrado que analisa os dados reais da fazenda:
+- **Análise Financeira**: Insights sobre o faturamento acumulado (Ex: R$ 357.281,00).
+- **Manejo Técnico**: Sugestões baseadas na área plantada (675.00 HA) e cultura atual.
+- **Gestão de Stock**: Recomendações de compra e uso eficiente de insumos.
+
+### 🛡️ Auxílio Pragas IA
+Módulo inteligente para identificação de ameaças no campo:
+- O produtor descreve os sintomas (manchas, insetos, coloração).
+- A IA identifica a praga mais provável (ex: Ferrugem Asiática).
+- **Integração com Stock**: O sistema sugere automaticamente o defensivo disponível no stock e a dosagem correta.
+
+### 📊 Gestão Operacional e Financeira
+- **Dashboard Dinâmico**: Clima em tempo real, cotações de commodities e resumo de safra.
+- **Controle de Maquinário**: Monitorização de horímetros e alertas de manutenção preventiva.
+- **Fluxo de Caixa**: Registo detalhado de vendas de sacas, compras de insumos e histórico de colheitas por talhão.
+
+---
+
+## 🛠️ Stack Tecnológica
+
+- **Frontend**: [Vue.js 3](https://vuejs.org/) com [Inertia.js](https://inertiajs.com/)
+- **Backend Principal**: [Laravel 11](https://laravel.com/) (PHP 8.2+)
+- **Microserviço de IA**: [Python 3](https://www.python.org/) com [Flask](https://flask.palletsprojects.com/)
+- **Inteligência Artificial**: API da [OpenAI](https://openai.com/) (Modelos GPT-3.5/4)
+- **Estilização**: [Tailwind CSS](https://tailwindcss.com/)
+- **Base de Dados**: MySQL / SQLite
+
+---
+
+## 📦 Como Instalar e Rodar
+
+### 1. Backend Laravel
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+npm install && npm run dev
+php artisan serve
+2. Microserviço Python (AI Service)
+
+Bash
+cd ai_service
+python3 -m venv venv
+source venv/bin/activate  # No Mac/Linux
+pip install -r requirements.txt
+# Configure a sua OPENAI_API_KEY no ficheiro .env
+python ai_service.py
+👤 Autor
+Michael Neves - LinkedIn
+
+Este projeto foi desenvolvido como uma demonstração técnica da aplicação de IA generativa no setor do agronegócio.
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
