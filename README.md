@@ -12,54 +12,29 @@
 
 O **AgroSmart** é uma plataforma completa de gestão de precisão para produtores agrícolas, que combina a robustez do ecossistema **Laravel** com o poder da **IA em Python**. O sistema permite controlar desde o financeiro e maquinário até diagnósticos avançados de pragas em tempo real.
 
----
+# 🌾 AgroSmart - ERP de Gestão Agrícola com IA
 
-## 📸 Demonstração do Sistema (Galeria Completa)
-
-### 🔐 Acesso e Primeiros Passos
-| Login do Usuário | Cadastro de Propriedades |
+| | |
 |:---:|:---:|
-| <img src="screenshots/login.png" width="400"> | <img src="screenshots/image%20copy%208.png" width="400"> |
-| *Acesso seguro ao ERP* | *Formulário de nova fazenda* |
-
-### 🖥️ Painel de Controle e Operações
-| Dashboard Principal | Gestão de Maquinário |
-|:---:|:---:|
-| <img src="screenshots/dashboard.png" width="400"> | <img src="screenshots/maquinario.png" width="400"> |
-| *Visão 360º da operação* | *Status da frota e horímetros* |
-
-### 🤖 Inteligência Artificial AgroBot
-| Consultoria Estratégica | Chatbot AgroBot |
-|:---:|:---:|
+| <img src="screenshots/login.png" width="400"> | <img src="screenshots/dashboard.png" width="400"> |
 | <img src="screenshots/image.png" width="400"> | <img src="screenshots/image%20copy.png" width="400"> |
-| *Análise financeira via IA* | *Assistente técnico interativo* |
-
-### 🛡️ Módulo de Sanidade Vegetal
-| Diagnóstico de Pragas | Identificação Positiva |
-|:---:|:---:|
-| <img src="screenshots/auxilia%20pragas.png" width="400"> | <img src="screenshots/image%20copy%204.png" width="400"> |
-| *Interface de detecção* | *Análise de Ferrugem Asiática* |
-
-### 💰 Gestão Financeira e Vendas
-| Fluxo de Caixa | Registro de Vendas |
-|:---:|:---:|
-| <img src="screenshots/financeiro.png" width="400"> | <img src="screenshots/image%20copy%202.png" width="400"> |
-| *Receitas e despesas reais* | *Lançamento de produção (Milho)* |
-
-### 🗺️ Propriedades e Talhões
-| Visão da Fazenda | Timeline de Colheitas |
-|:---:|:---:|
-| <img src="screenshots/image%20copy%207.png" width="400"> | <img src="screenshots/image%20copy%206.png" width="400"> |
-| *Talhões ativos e culturas* | *Histórico de rendimento* |
-
-### 👥 Gestão de Colaboradores e IA interna
-| Controle de Equipe | Depuração de Componentes |
-|:---:|:---:|
-| <img src="screenshots/image%20copy%205.png" width="400"> | <img src="screenshots/image%20copy%203.png" width="400"> |
-| *Níveis de acesso (Admin/User)* | *Desenvolvimento da interface IA* |
+| <img src="screenshots/auxilia%20pragas.png" width="400"> | <img src="screenshots/image%20copy%202.png" width="400"> |
+| <img src="screenshots/image%20copy%203.png" width="400"> | <img src="screenshots/image%20copy%204.png" width="400"> |
+| <img src="screenshots/image%20copy%205.png" width="400"> | <img src="screenshots/image%20copy%206.png" width="400"> |
+| <img src="screenshots/image%20copy%207.png" width="400"> | <img src="screenshots/image%20copy%208.png" width="400"> |
+| <img src="screenshots/financeiro.png" width="400"> | <img src="screenshots/maquinario.png" width="400"> |
 
 ---
 
+## 🛠️ Stack Tecnológica
+- **Backend**: Laravel 11
+- **Frontend**: Vue.js 3 & Inertia.js
+- **IA**: Python (Flask) & OpenAI API
+
+---
+
+## 👤 Autor
+**Michael Neves** - [LinkedIn](https://www.linkedin.com/in/michaelneves800)
 ## 🚀 Funcionalidades Técnicas
 - **AgroBot Especialista**: Consultoria estratégica baseada em dados reais de faturamento (R$ 357.281,00) e área (2675.00 HA).
 - **Detecção de Pragas**: Identificação inteligente com sugestão de manejo integrado e consulta ao estoque de defensivos.
