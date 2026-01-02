@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Colheita extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'ciclo_id', 
+        'quantidade_colhida', 
+        'umidade', 
+        'data_colheita', 
+        'observacoes'
+    ];
+
+    public function ciclo()
+    {
+        return $this->belongsTo(Ciclo::class);
+    }
+}
