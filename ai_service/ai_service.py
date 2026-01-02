@@ -2,12 +2,12 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from openai import OpenAI
 import json
-
+import os
+from dotenv import load_dotenv
 app = Flask(__name__)
 CORS(app)
-
-client = OpenAI(api_key="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")
-
+load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 @app.route('/gerar-relatorio', methods=['POST'])
 def gerar_relatorio():
     try:

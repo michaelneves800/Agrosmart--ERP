@@ -22,3 +22,10 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+# Cria o arquivo .gitignore se não existir e adiciona as restrições
+echo ".env" >> .gitignore
+echo "database/" >> .gitignore
+echo "node_modules/" >> .gitignore
+echo "vendor/" >> .gitignore
+echo "venv/" >> .gitignore
+echo "*.pyc" >> .gitignore
